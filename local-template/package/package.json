@@ -1,0 +1,13 @@
+{
+  "name": "org.termx.ig.template",
+  "version": "0.0.1",
+  "type": "fhir.template",
+  "license": "Apache-2.0",
+  "description": "Support template - not intended for real use",
+  "author": "http://termx.org",
+  "canonical": "http://github.com/termx-health/ig-template",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}

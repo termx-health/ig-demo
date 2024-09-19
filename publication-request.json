@@ -1,0 +1,10 @@
+{
+    "package-id" : "org.termx.ig.demo",
+    "version" : "0.0.1",
+    "path" : "https://termx.org/ig/demo/0.0.1",
+    "mode" : "milestone",
+    "status" : "trial-use",
+    "sequence" : "Release 0.0.1",
+    "desc" : "Demo project with Shorthand examples",
+    "first" : true
+}
