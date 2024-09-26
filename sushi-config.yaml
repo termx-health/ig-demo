@@ -48,13 +48,15 @@ publisher:                              # author and responsible person
 #
 pages:
   index.md:
-    title: Home
+    title: Главная
   contact.md:
-    title: Contact Us
+    title: Контакт
   download.md:
-    title: Download
+    title: Скачать
   markdown.md:
-    title: Markdown
+    title: Язык разметки
+  who.md:
+    title: ВОЗ
 
 
 #   implementation.xml:
@@ -89,6 +91,7 @@ menu:
     Markdown: markdown.html
   Artifacts: artifacts.html
   ToC: toc.html
+  ВОЗ: who.html
   Links:
     "Contact Us": contact.html
     Downloads: download.html
@@ -160,24 +163,24 @@ menu:
 # create IG.definition.grouping entries and associate the individual
 # resource entries with the corresponding groupIds.
 #
-# groups:
-#    GroupC1:
-#       name: Demo code systems
-#       description: Example code systems
-#       resources:
-#       - CodeSystem/date-accuracy-indicator
-#       - CodeSystem/mode-of-arrival
-#    GroupV1:
-#       name: Demo value sets
-#       description: Example value sets
-#       resources:
-#       - ValueSet/date-accuracy-indicator  
-#       - ValueSet/mode-of-arrival
-#    GroupN1:
-#       name: Demo naming systems
-#       description: Example naming systems
-#       resources:
-#       - NamingSystem/org-vatin
+groups:
+   GroupC1:
+      name: Demo code systems
+      description: Example code systems
+      resources:
+      - CodeSystem/date-accuracy-indicator
+      - CodeSystem/mode-of-arrival
+   GroupV1:
+      name: Demo value sets
+      description: Example value sets
+      resources:
+      - ValueSet/date-accuracy-indicator  
+      - ValueSet/mode-of-arrival
+   GroupN1:
+      name: Demo naming systems
+      description: Example naming systems
+      resources:
+      - NamingSystem/org-vatin
 
 #
 # The ImplementationGuide resource defines several other properties

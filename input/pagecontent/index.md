@@ -1,3 +1,3 @@
-### Introduction
+### Введение
 
-This Implementation Guide provide thelist of the CodeSystems, ValueSets, ConceptMaps and NamingSystem that are not published or not available in the teminology server.
+Этот Руководство по реализации предоставляет список систем кодов (CodeSystems), наборов значений (ValueSets), карт концепций (ConceptMaps) и систем имен (NamingSystem), которые не опубликованы или недоступны на сервере терминологии.
