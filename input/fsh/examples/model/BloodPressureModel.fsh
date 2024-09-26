@@ -1,7 +1,7 @@
 Logical: BloodPressure
 Parent: Element
 Id: BloodPressure
-* ^url = "https://taltech.ee/Model/BloodPressure"
+//* ^url = "https://taltech.ee/Model/BloodPressure"
 * ^publisher = "Taltech"
 * ^status = #draft
 * patient 1..1 Reference(http://hl7.org/fhir/StructureDefinition/Patient) "Patient" "Subject of procedure."

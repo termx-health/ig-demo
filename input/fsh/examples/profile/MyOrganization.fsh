@@ -24,7 +24,7 @@ Id: my-organization
 
 // ссылка на Valueset по машинному имени
 // в таком случае Valueset должен приситствовать в этом или зависом руковдстве по реализации
-* type from MyOrganizationType
+//* type from MyOrganizationType
 
 
 // Коментарии
@@ -35,4 +35,4 @@ Id: my-organization
 
 // Содержимое `^comment` также отображается на вкладке «Подробные описания»
 // в созданном Руководстве по внедрению.
-* birthDate ^comment = "If exact date of birth is partially or completely unknown, Implementers SHALL populate this element with the date of birth information listed on the patient's government-issued identification."
+* name ^comment = "If exact date of birth is partially or completely unknown, Implementers SHALL populate this element with the date of birth information listed on the patient's government-issued identification."
