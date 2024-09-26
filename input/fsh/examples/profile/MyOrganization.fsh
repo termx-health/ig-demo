@@ -36,3 +36,10 @@ Id: my-organization
 // Содержимое `^comment` также отображается на вкладке «Подробные описания»
 // в созданном Руководстве по внедрению.
 * name ^comment = "If exact date of birth is partially or completely unknown, Implementers SHALL populate this element with the date of birth information listed on the patient's government-issued identification."
+
+
+Instance: Leningrad
+InstanceOf: Organization
+Description: "Ленинград"
+
+* name = "Ленинград"
